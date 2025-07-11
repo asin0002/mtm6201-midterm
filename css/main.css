@@ -1,0 +1,76 @@
+/* Tablet */
+@media screen and (min-width: 768px) {
+    h1 { font-size: 3rem; }
+    h2 { font-size: 2.375rem; }
+    h3 { font-size: 1.75rem; }
+    
+    .main-nav {
+        height: 110px;
+    }
+    
+    .logo-container > img {
+        width: 196px;
+    }
+    
+    #coffee-hero {
+        height: 452px;
+    }
+    
+    .content-wrapper {
+        width: 540px;
+        max-width: none;
+    }
+    
+    .gallery-grid {
+        flex-direction: row;
+        gap: 16px;
+        margin-top: 22px;
+    }
+    
+    .benefits-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    
+    .benefit-card {
+        flex-basis: 50%;
+        flex-grow: 1;
+    }
+    
+    .benefit-card:nth-child(3) {
+        margin-top: 30px;
+    }
+    
+    #explore-menu {
+        height: 470px;
+        background-size: 120%;
+    }
+    
+    #explore-menu:hover {
+        background-size: 130%;
+    }
+    
+    #about-us {
+        padding: 84px 0;
+    }
+    
+    .testimonial-grid {
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    
+    .testimonial-column {
+        height: 406px;
+    }
+    
+    .testimonial-column img {
+        width: 120%;
+    }
+    
+    .testimonial-column:nth-child(1) img,
+    .testimonial-column:nth-child(2) img,
+    .testimonial-column:nth-child(3) img {
+        top: 0;
+    }
+}
